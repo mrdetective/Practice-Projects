@@ -1,0 +1,31 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: 'Monoton', cursive;
+    /* font-family: 'Roboto', sans-serif; */
+    background-image: url(image/b1.jpg);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Roboto:wght@300&display=swap');
+.button {
+    padding: 20px;
+    margin: 0 3px;
+    width: 66px;
+    border: 2px solid black;
+    border-radius: 9px;
+    cursor: pointer;
+}
+
+.row {
+    margin: 5px 0px;
+}
+
+.row input {
+    font-size: 21px;
+    margin: 0;
+    width: 292px;
+    padding: 10px 0px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
