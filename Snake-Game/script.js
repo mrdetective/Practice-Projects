@@ -75,10 +75,6 @@ function gameEngine() {
     snakeArr[0].x += inputDir.x;
     snakeArr[0].y += inputDir.y;
 
-
-
-
-
     board.innerHTML = "";
     snakeArr.forEach((e, index) => {
         snakeElement = document.createElement('div');
